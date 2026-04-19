@@ -1,8 +1,8 @@
 import { MemoryConfig } from "./types";
 
 export const memoryConfig: MemoryConfig = {
-  recipientName: "Ayu Anita Purnama",
-  titleText: "Only For U, Ayu Anita Purnama",
+  recipientName: "Indahul Jannah",
+  titleText: "Only For U, Indahul Jannah",
   subtitleText: "A small universe of us.",
   scannerText: {
     title: "Memory Scanner",
@@ -16,7 +16,7 @@ export const memoryConfig: MemoryConfig = {
   },
   photos: Array.from({ length: 12 }, (_, i) => ({
     id: `photo-${i + 1}`,
-    src: `/photos/photo-${i + 1}.svg`,
+    src: `/photos/photo-${i + 1}.jpeg`,
     alt: `Memory photo ${i + 1}`
   }))
 };
